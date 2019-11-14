@@ -1,0 +1,45 @@
+/*
+2019-11-14
+www.seckin.co
+Seçkin Durası 
+https://github.com/durasi/XML-Kutuphanesi
+ */
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Seckin</title>
+        <itunes:subtitle>Seckin</itunes:subtitle>        
+        <link>https://www.seckin.co</link>
+        <atom:link href="https://www.seckin.co/podcast/podcast_rss.xml" rel="self" type="application/rss+xml"/>    
+        <description>Birlikte Tartışalım Serisi ile Youtube yayınları sonrası şimdi Google Podcast ve Spotify Podcast adreslerinde. Türkçe çevirileri, mobil uygulamalar, oyunlar, yeni teknolojiler, öğrencilik ve projler. seckin.co adresi ziyaret edin ve bir sonraki yayını birlikte yapalım.</description>
+        <language>tr-TR</language>
+        <itunes:category text="Arts">
+          <itunes:category text="Design"/>
+          <itunes:category text="Visual Arts"/>
+        </itunes:category>
+        <itunes:category text="Technology">
+          <itunes:category text="Tech News"/>
+        </itunes:category>
+        <itunes:image href="https://www.seckin.co/uploads/about.jpg"/>
+        <itunes:keywords>Seckin</itunes:keywords>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:author>Seckin</itunes:author>
+        <itunes:owner>
+            <itunes:name>Seckin</itunes:name>
+            <itunes:email>bilgi@seckin.co</itunes:email>
+        </itunes:owner>
+        <item>
+            <title>BT #1 </title>
+            <description><![CDATA[Açıklama buraya]]></description>
+            <link>https://www.youtube.com/watch?v=SR1vFSmSk5E</link>
+            <itunes:explicit>no</itunes:explicit>
+            <guid isPermaLink="true">https://www.youtube.com/watch?v=SR1vFSmSk5E</guid>
+            <author>Seckin</author>
+            <itunes:image href="https://www.seckin.co/podcast/birliktetartisalim/kapak.png"/>
+            <pubDate>Wed, 05 Jun 2019 21:00:00 +0000</pubDate>
+            <enclosure type="audio/mpeg" url="https://www.seckin.co/podcast/birliktetartisalim/birlikte-tartisalim-bolum1.mp3"/>
+            <itunes:duration>3719</itunes:duration>
+        </item>        
+    </channel>
+</rss>
